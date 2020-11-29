@@ -10,7 +10,7 @@ int main() {
 		double number2;
 		char sign;
 
-		while (!(cin >> number1 >> sign >> number2)) { // проверяет ввел ли человек допустимый символ в данном случае число и дозволенный знак
+		while (!(cin >> number1 >> sign >> number2)) { 
 			cout << "Wrong type" << endl;
 			cout << "press esc if you are finished";
 			cin.clear();
