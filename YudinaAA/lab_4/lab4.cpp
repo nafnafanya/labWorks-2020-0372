@@ -3,7 +3,7 @@
 using namespace std;
 
 double exponentiation(int number, int power) {
-	int result = 1;
+	double result = 1;
 	for (int i = 0; i < abs(power); i++) {
 		result = result * number;
 	}
