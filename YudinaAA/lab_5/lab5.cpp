@@ -27,12 +27,12 @@ void subtraction(int matrix1[n][n], int matrix2[n][n], int matrix3[n][n]) {
 }
 
 void print(int matrix3[n][n]) {
-	std::cout << "result:" << std::endl;
+	cout << "result:" << endl;
     for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			std::cout << matrix3[i][j] << " ";
+			cout << matrix3[i][j] << " ";
 		}
-		std::cout << std::endl;
+		cout << endl;
 	}
 }
 
